@@ -1,0 +1,76 @@
+body {
+    background-color: #040552; /* Dark Blue Gray */
+    color: #ecf0f1; /* Light Gray */
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    color: #3498db; /* Blue */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #1e84c8; /* Blue */
+    border-radius: 4px;
+    color: #2c3e50; /* Dark Blue Gray */
+    background-color: #ecf0f1; /* Light Gray */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+button[type="submit"] {
+    background-color: #26d345; /* Red */
+    color: #f3e6e6; /* White */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #c0392b; /* Darker Red */
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid #000000; /* black */
+    padding: 10px;
+}
+
+table th {
+    background-color: #3498db; /* Blue */
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #2c7da0; /* Lighter Gray */
+}
+
+table tbody tr:hover {
+    background-color: #0e222f; /* Darker Silver */
+}
+
+
